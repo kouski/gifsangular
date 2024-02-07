@@ -1,0 +1,14 @@
+input{
+  border: 2px solid rgb(180, 181, 181);
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid lightseagreen;
+}
+
+label{
+  cursor: pointer;
+}
+
