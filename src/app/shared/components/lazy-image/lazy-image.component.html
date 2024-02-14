@@ -3,6 +3,16 @@
 <img
 [src]="url"
 [alt]="alt"
-class="card-img-top"
+class="card-img-top animate__animated animate__rollIn"
+(load)="onLoad()"
+[ngStyle]="{display: hasLoaded? '': 'none'}"
 >
+
+<img src="../../../../assets/loader.svg"
+*ngIf="!hasLoaded"
+alt="Loading..."
+height=35px
+width=35px
+class="mt-3"
+/>
 </div>
