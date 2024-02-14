@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GifsModule } from './gifs/gifs.module';
 import { SharedModule } from './shared/shared.module';
+import { GifscardComponent } from './gifs/components/gifscard/gifscard.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+
 
   ],
   imports: [
